@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/skills.uss?fileID=7433441132597879392&amp;guid=f966f715310bc164bbb7cdf4a87c330c&amp;type=3#skills" />
+    <ui:VisualElement name="panel" class="panel" style="justify-content: space-around; align-items: center; border-left-color: rgb(219, 219, 219); border-right-color: rgb(219, 219, 219); border-top-color: rgb(219, 219, 219); border-bottom-color: rgb(219, 219, 219); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; margin-bottom: 1px;">
+        <ui:Label tabindex="-1" text="Умения" display-tooltip-when-elided="true" name="labelSkills" style="font-size: 20px; color: rgb(219, 226, 37); -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(166, 109, 0);" />
+        <ui:VisualElement name="skillList" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); align-items: flex-start; width: 150px; flex-shrink: 0; flex-direction: row;">
+            <ui:Button display-tooltip-when-elided="true" name="skill_1" class="skill-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="skillInfo" class="panel" style="flex-grow: 0; background-color: rgb(0, 0, 0); height: 150px; border-left-color: rgb(207, 207, 207); border-right-color: rgb(207, 207, 207); border-top-color: rgb(207, 207, 207); border-bottom-color: rgb(207, 207, 207); transition-duration: 250ms; transition-timing-function: ease-out-back; margin-right: 5px; margin-top: 1px;">
+        <ui:Button display-tooltip-when-elided="true" name="skill" class="skill-button" style="margin-left: 5%; margin-right: 0; margin-top: 2%; margin-bottom: 0; transition-duration: 250ms; overflow: hidden; position: relative;" />
+    </ui:VisualElement>
+</ui:UXML>
